@@ -1,6 +1,6 @@
 # Instantaneous 3D Scene Reconstruction using ENeRF
 
-
+<html>
   <style>
     p {
       font-family: "Times New Roman", Times, serif;
@@ -13,3 +13,4 @@
 
 Source views and novel-view results:
 <img src="demo_wall3_src2.png" alt="Alt Text" width="300" height="200">  <img src="demo_walle_src1.png" alt="Alt Text" width="300" height="200">     <img src="walle.gif" alt="Alt Text" width="300" height="200">
+</html>
