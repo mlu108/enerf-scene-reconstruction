@@ -9,7 +9,7 @@ In order to optimize the experience of teleoperation, 360 degrees scene reconstr
 
 **Source views and novel-view results:**
 
-<img src="-0.67.jpg" alt="Alt Text" width="300" height="200">  <img src="0.67.jpg" alt="Alt Text" width="300" height="200">     <img src="armcam.gif" alt="Alt Text" width="300" height="200"> 
+<img src="-0.67.jpg" alt="Alt Text" width="300" height="200">  <img src="0.67.jpg" alt="Alt Text" width="300" height="200"> <img src="armcam.gif" alt="Alt Text" width="300" height="200">
 
 <img src="demo_wall3_src2.png" alt="Alt Text" width="300" height="200">  <img src="demo_walle_src1.png" alt="Alt Text" width="300" height="200">     <img src="walle.gif" alt="Alt Text" width="300" height="200">
 
