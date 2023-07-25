@@ -1,5 +1,5 @@
 # Instantaneous 3D Scene Reconstruction using ENeRF
-
+<!DOCTYPE html>
 <html>
   <style>
     p {
