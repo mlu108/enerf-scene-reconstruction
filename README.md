@@ -1,4 +1,4 @@
-# enerf-scene-reconstruction
+# Instantaneous 3D Scene Reconstruction using ENeRF
 
 
 Target Outputs:
