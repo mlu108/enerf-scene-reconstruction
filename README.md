@@ -1,5 +1,5 @@
 
-# Instantaneous 3D Scene Reconstruction using ENeRF
+# Adapting NeRF for Low-Latency Reconstruction in VR Teleoperation
 
 
 
@@ -7,8 +7,8 @@
 
 <img src="santa.gif" alt="Alt Text" width="300" height="200"> <img src="bunnies.gif" alt="Alt Text" width="300" height="200"> 
 
-In order to optimize the experience of teleoperation, instantaneous 360 degrees scene reconstruction in virtual reality is ideal for users to see the robots’ surroundings and perform tasks that involve complex navigation and depth estimations. Previous work has mostly focused on using point-cloud reconstruction methods, yet these create latency between user and robot head movements that cause confusion and nausea. In order to resolve the issue, we are working to develop a teleoperation system that uses ENeRF to perform novel view synthesis in order to generate free-viewpoint scenes. Given multiview images from a stereo pair of ZED Mini cameras, the network uses the plane sweeping algorithm that infers depth information and constructs a coarse geometry of the scene; the geometry allows the network to sample a few points near the scene surface, thereby significantly improving the speed of rendering novel views through radiance field networks. We adapted ENeRF in python and we have achieved 60 degrees field of view, and we hypothesize the full implementation of the network in the unity pipeline will allow us to achieve instantaneous 360 degrees scene reconstruction.                                                                                                                                   
-
+In order to optimize virtual reality (VR) for teleoperation, 360-degree scene reconstruction is necessary for complex navigation and depth estimation. Previous point-cloud based methods create latency between user and robot head movements that cause confusion and nausea. NeRF methods provide SotA novel-view synthesis, but also suffer due to high latency. We develop a novel pipeline based on an Efficient-NeRF(ENeRF)-backbone to generate free-viewpoint scenes. We adapt a PyTorch implementation of ENeRF, and achieve a 60 degree field-of-view. Future work involves stitching together separate views for an instantaneous, 360-degree reconstruction, as well as adapting the network for Unity to allow for real-world usage through the Spot interface.
+                                                                                                                                  
 **Source views and novel-view results:**
 
 <img src="-0.67.jpg" alt="Alt Text" width="300" height="200">  <img src="0.67.jpg" alt="Alt Text" width="300" height="200"> <img src="armcam.gif" alt="Alt Text" width="300" height="200"> 
